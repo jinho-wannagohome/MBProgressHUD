@@ -9,11 +9,8 @@ let package = Package(
     targets: [
         .target(
             name: "MBProgressHUD",
-            dependencies: [],
-            path: ".",
-            exclude: ["Demo"],
-            sources: ["MBProgressHUD.h", "MBProgressHUD.m"],
-            publicHeadersPath: "include"
+            path: "Sources",
+            publicHeadersPath: "include/MBProgressHUD"
         )
     ]
 )
